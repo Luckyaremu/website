@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Container} from "react-bootstrap";
 import axios from "axios";
 
 
@@ -83,6 +84,7 @@ setTimeout(()=>{
 
   render() {
     return (
+      <Container fluid className="home-about-section" id="about">
       <div className="container1">
         <h6 style={{ fontSize: "1.6em" }}>
               <span className="white"> Lets get in touch! Send me a message </span>
@@ -129,6 +131,7 @@ setTimeout(()=>{
       </div>
       </form>
     </div>
+    </Container>
     )
   }
 }
