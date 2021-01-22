@@ -4,6 +4,8 @@
     grid-gap: 2rem;
     max-width: 900px;
     margin: 3rem auto;
+    background:#68187a;
+    
   }
   
   @mixin grid-templates {
@@ -11,6 +13,7 @@
     margin: 1rem;
     grid-gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    
   }
   
   @mixin content {
@@ -19,17 +22,22 @@
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    background-color: var(--dark-en);
     width: 100%;
+    background-image: var(--image-gradient), url(../../Assets/home-bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
   }
   
   .con {
     &-social {
       justify-content: space-evenly;
       font-size: 1.5rem;
+     
   
       & > a {
-        color: yellow;
+        color: #68187a;
         border: 1px dotted;
         padding: 1rem;
         border-radius: 50%;
@@ -52,10 +60,9 @@
     &-card {
       display: flex;
       display: flex;
-      padding: 1rem;
-      border-radius: 0.5rem;
+      padding: 0.5rem;
+      border-radius: 1.5rem;
       background: #1e1e23;
-  
       &s {
         @include grid-templates();
         margin: 2rem;
@@ -129,7 +136,7 @@
     }
   }
   textarea:invalid, input:invalid {
-    box-shadow: 0 0 5px 1px red;
+    box-shadow: 0 0 5px 1px #cd5ff8;
   }
   
   .d-none{
@@ -189,7 +196,7 @@
     font-size: 1.3rem;
     border-radius: 3px;
     font-weight: 100;
-    background: var(--yelow);
+    background:#68187a;
     border: 1px solid var(--yelow);
     cursor: pointer;
   

@@ -16,12 +16,12 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I have passion for design and I have learnt
-              some nice technologies, I think… 🤷‍♂️
+              some nice technologies 🤷‍♂️ such 
               <br />
-              <br />I can do magic with
               <i>
                 <b className="purple"> HTML5, CSS3, RAILS, REACT, RUBY & REDUX and Javascript. </b>
               </i>
+              <br />I can do anything with them
               <br />
               <br />
               My current focus is on &nbsp;
