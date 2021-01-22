@@ -47,11 +47,12 @@ function About() {
           <Techstack iconName="devicon-mongodb-plain-wordmark" />
           <Techstack iconName="devicon-git-plain-wordmark" />
           <Techstack iconName="devicon-bootstrap-plain-wordmark" />
+          <i class="devicon-aftereffects-plain"></i>
         </Row>
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
-        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+        <Row style={{ justifyContent: "center", paddingBottom: "50px", fontsize: "10px" }}>
           <Techstack iconName="devicon-linux-plain" />
           <Techstack iconName="cib-visual-studio-code" />
           <Techstack iconName="cib-postman" />
