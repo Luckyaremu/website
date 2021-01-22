@@ -47,7 +47,6 @@ function About() {
           <Techstack iconName="devicon-mongodb-plain-wordmark" />
           <Techstack iconName="devicon-git-plain-wordmark" />
           <Techstack iconName="devicon-bootstrap-plain-wordmark" />
-          <i class="devicon-aftereffects-plain"></i>
         </Row>
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
