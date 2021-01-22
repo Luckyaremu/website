@@ -1,34 +1,34 @@
 import React from "react";
 import Icofont from "react-icofont";
-import ConForm from "./ConformConForm";
+import ConForm from "./Conform"
 import "./Contact.scss"
 const Contact = () => {
   const contacts = [
     {
       name: "Call Me",
-      status: "+299-54-62-498-62",
+      status: "+2348032236791",
       icon: "phone",
     },
     {
       name: "E-mail",
-      status: "kbooster17@gmail.com",
+      status: "aremu.baba70@gmail.com",
       icon: "letter",
     },
   ];
   const socials = [
     {
       name: "Linked-In",
-      status: "https://www.linkedin.com/in/kekeli-dogbevi-jiresse/",
+      status: "https://www.linkedin.com/in/lucky-aremu-24807a145/",
       icon: "linkedin",
     },
     {
       name: "Twitter",
-      status: "https://twitter.com/keli_booster",
+      status: "https://twitter.com/luckyaremu",
       icon: "twitter",
     },
     {
       name: "GitHub",
-      status: "https://github.com/kelibst",
+      status: "https://github.com/Luckyaremu",
       icon: "github",
     },
   ];
@@ -38,14 +38,13 @@ const Contact = () => {
         <div className="con-cont">
           <h1 className="text-center con-header">Contact Me</h1>
           <h6 className="desc text-center">
-            Let's get in touch! Send me an email. If this is urgent, consider
-            sending me a text message instead.
+            Let's get in touch! Send me an email and give me call
           </h6>
           <div className="con-cards">
             {contacts.map((contact) => (
               <div className="con-card" key={contact.name}>
                 <div className="con-card-icon">
-                  <Icofont icon={contact.icon} />
+                <Icofont icon={contact.icon} />
                 </div>
                 <div className="con-card-de">
                   <h4 className="con-card-name">{contact.name}</h4>
@@ -56,7 +55,7 @@ const Contact = () => {
             <div className="con-card con-social">
               {socials.map((social) => (
                 <a href={social.status} className="soc" key={social.name}>
-                  <Icofont icon={social.icon} />
+                 <Icofont icon={social.icon} />
                 </a>
               ))}
             </div>
