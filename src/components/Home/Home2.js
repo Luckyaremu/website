@@ -21,7 +21,7 @@ function Home2() {
               some nice technologies 🤷‍♂️ such 
               <br />
               <i>
-                <b className="purple"> HTML5, CSS3, RAILS, REACT, RUBY & REDUX and Javascript. </b>
+                <b className="purple"> HTML5, CSS3, RAILS, RUBY, REACT & REDUX and Javascript. </b>
               </i>
               <br />I can do anything with them
               <br />
