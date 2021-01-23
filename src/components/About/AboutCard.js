@@ -36,11 +36,6 @@ function AboutCard() {
               <i className="far fa-hand-point-right"></i> Writting Tech Blogs
             </li>
           </ul>
-
-          <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
-            "Strive to build a more friendly community for everyone!"{" "}
-          </p>
-          <footer className="blockquote-footer">@Luckaremu</footer>
         </blockquote>
       </Card.Body>
     </Card>
