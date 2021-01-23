@@ -9,14 +9,16 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Aremu Lucky Baba </span>
+            Hi Everyone, I am <span className="purple">Lucky Aremu </span>
             from <span className="purple">Lagos, Nigeria.</span>
-            <br />I am a junior full-stack web-developer and puising 
-            <br />a career in front-end web-development
-            <br />I was introduced to codes a year ago and since 
-            <br /> then, i have developed a passion to make our community more friendly through open source
-            <br /> contributions and helping to push small scale
-            <br /> business through tech innovations.
+            <br />I am a junior full-stack web-developer and searching for 
+            <br />a career in front-end web-development.
+            <br />After I was introduced to writting codes a year ago,
+            <br />I developed a deep passion for software development and open source community,
+            <br />Since then i have always been writting codes and contributing to different communities through open source and helping to develope small scale
+            <br />business through tech innovations.
+            <br /> I look forward to bringing the same kind of fire to the right community.
+            <br /> I am currently proficient in Ruby, Rails, HTML, CSS, JavaScript, and React.
 
             <br /> 
             <br/> 

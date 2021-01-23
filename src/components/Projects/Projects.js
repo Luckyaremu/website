@@ -17,10 +17,10 @@ function Projects() {
       
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Some of my <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few of the projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -77,7 +77,7 @@ function Projects() {
             <ProjectCard
               imgPath={medhub}
               isBlog={false}
-              title="IPHONE CALCULATION"
+              title="IPHONE CALCULATOR"
               description="This calculator was built with React and Redux with inspirations from Iphone calculator. It is completely responsive and can do some complex arritmetic"
               link="https://blissful-thompson-075242.netlify.app/"
             />
