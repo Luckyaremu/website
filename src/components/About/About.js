@@ -32,6 +32,7 @@ function About() {
             <img src={myImg} className="img-fluid" alt="avatar" />
           </Col>
         </Row>
+        <div className="devicon">
         <h1 className="project-heading">
           Professional <strong className="purple">Skill set </strong>
         </h1>
@@ -52,9 +53,9 @@ function About() {
         <Row style={{ justifyContent: "center", paddingBottom: "50px", fontsize: "10px" }}>
           <Techstack iconName="devicon-linux-plain" />
           <Techstack iconName="cib-visual-studio-code" />
-          <Techstack iconName="cib-postman" />
           <Techstack iconName="cib-heroku" />
         </Row>
+        </div>
       </Container>
     </Container>
   );
