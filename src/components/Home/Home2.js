@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.png";
+import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Tilt from "react-parallax-tilt";
@@ -8,6 +9,7 @@ import Tilt from "react-parallax-tilt";
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
+      <Particle />
       <Container>
         <Row>
           <Col md={8} className="home-about-description">

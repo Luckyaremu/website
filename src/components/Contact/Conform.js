@@ -134,7 +134,7 @@ const { status , errors } = sent
             Send Message
           </button>
       }
-      { status &&  <h6 className={`status d-block text-succ text-center`}>Sent</h6>}
+      { status &&  <h6 className={`status d-block text-succ text-center`}>Your message has been sent</h6>}
        { errors &&   <h6 className={`status text-danger text-center`}>There was an Error in Sending your message. Try again later.</h6>}
         </div>
       </form>

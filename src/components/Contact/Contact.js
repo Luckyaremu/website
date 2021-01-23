@@ -2,6 +2,8 @@ import React from "react";
 import Icofont from "react-icofont";
 import ConForm from "./Conform"
 import "./Contact.scss"
+
+
 const Contact = () => {
   const contacts = [
     {
