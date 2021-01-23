@@ -22,7 +22,7 @@ function AboutCard() {
 
             <br /> 
             <br/> 
-            I am open for any team with passion for <span className="purple">Front-End and Full-stack web-developmet</span>
+            I am open for any team with passion for <span className="purple">Front-End web-developmet</span>
             
             <br/>
             <br/>
