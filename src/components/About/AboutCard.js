@@ -17,8 +17,8 @@ function AboutCard() {
             <br />developed a deep passion for software development and open source community, Since then i have always
             <br />been writting codes and contributing to different communities through open source and helping to develope small scale
             <br />business through tech innovations.
-            <br /> I look forward to bringing the same kind of fire to the right community.
-            <br /> I am currently proficient in Ruby, Rails, HTML, CSS, JavaScript, and React.
+            <br />I look forward to bringing the same kind of fire to the right community.
+            <br />I am currently proficient in Ruby, Rails, HTML, CSS, JavaScript, and React.
 
             <br /> 
             <br/> 
