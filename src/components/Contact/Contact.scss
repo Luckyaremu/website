@@ -214,7 +214,11 @@ button.con-sub.btn {
     background-color: #68187a;
     transition: all 0.4s;
     border-radius: 1rem;
-  }
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
 }
 // 540px	720px	960px	1140px
 @media only screen and (max-width: 720px) {

@@ -20,7 +20,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              Know Who <strong className="purple">I Am</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -33,7 +33,7 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          Professional <strong className="purple">Skill set </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
           <Techstack iconName="devicon-javascript-plain " />
@@ -47,7 +47,7 @@ function About() {
           <Techstack iconName="devicon-bootstrap-plain-wordmark" />
         </Row>
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="purple">Tools</strong> I use the most
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px", fontsize: "10px" }}>
           <Techstack iconName="devicon-linux-plain" />

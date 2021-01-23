@@ -12,10 +12,10 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Lucky Aremu </span>
             from <span className="purple">Lagos, Nigeria.</span>
             <br />I am a junior full-stack web-developer and searching for 
-            <br />a career in front-end web-development.
-            <br />After I was introduced to writting codes a year ago,
-            <br />I developed a deep passion for software development and open source community,
-            <br />Since then i have always been writting codes and contributing to different communities through open source and helping to develope small scale
+            <br />a career with a great community.
+            <br />After I was introduced to writting codes a year ago, I
+            <br />developed a deep passion for software development and open source community, Since then i have always
+            <br />been writting codes and contributing to different communities through open source and helping to develope small scale
             <br />business through tech innovations.
             <br /> I look forward to bringing the same kind of fire to the right community.
             <br /> I am currently proficient in Ruby, Rails, HTML, CSS, JavaScript, and React.
