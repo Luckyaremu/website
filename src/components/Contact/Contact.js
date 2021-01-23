@@ -7,11 +7,6 @@ import "./Contact.scss"
 const Contact = () => {
   const contacts = [
     {
-      name: "Call Me",
-      status: "+2348032236791",
-      icon: "phone",
-    },
-    {
       name: "E-mail",
       status: "aremu.baba70@gmail.com",
       icon: "letter",
@@ -40,7 +35,7 @@ const Contact = () => {
         <div className="con-cont">
           <h1 className="text-center con-header">Contact Me</h1>
           <h6 className="desc text-center">
-            Let's get in touch! Send me an email and give me call
+            Let's get in touch! Send me an email
           </h6>
           <div className="con-cards">
             {contacts.map((contact) => (
