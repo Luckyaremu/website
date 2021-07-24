@@ -18,7 +18,7 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I have passion for design and I have learnt
-              some nice technologies 🤷‍♂️ such 
+              some nice technologies 🤷‍♂️ such as
               <br />
               <i>
                 <b className="purple"> HTML5, CSS3, RAILS, RUBY, REACT & REDUX and Javascript. </b>

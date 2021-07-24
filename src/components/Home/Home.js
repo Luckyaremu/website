@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import home from "../../Assets/home.png";
+import home from "../../Assets/home.svg";
 import Home2 from "./Home2";
 import Type from "./Type";
 
