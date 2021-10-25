@@ -13,6 +13,9 @@ import bookstore from "../../Assets/Projects/bookstore.png";
 import khidefeast from "../../Assets/khidefeast.png";
 import trena from "../../Assets/trenaservices.png";
 import phoenix from "../../Assets/phoenix.png";
+import rotex from "../../Assets/rotex.png";
+import abdulmat from "../../Assets/abdulmat.png";
+import luck from "../../Assets/luck.png";
 
 function Projects() {
   return (
@@ -26,6 +29,36 @@ function Projects() {
           Here are a few of the projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px"}}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={rotex}
+              isBlog={false}
+              title="RHOTEX EXCHANGE"
+              description="A crptocurrency website that deals mainly on crypto sales, it was built with REACT, REDUX AND RAPID API. The website is completely reponsive on all screen"
+              link="https://rhotexexchange.com/"
+              links="https://github.com/Luckyaremu/rotexexhange"
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={abdulmat}
+              isBlog={false}
+              title="ABDULMAT HOMES"
+              description="The business profile of abdulmat which deals on estate management, it was built with Html, Css, Jquiry, bootstrap and JavaScript. The website is completely reponsive on all screen"
+              link="https://compassionate-meninsky-dd581b.netlify.app/"
+              links="https://github.com/Luckyaremu/tylerhomes"
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={luck}
+              isBlog={false}
+              title="REGULAR DESIGN"
+              description="Just a regular design, it was built with Html, Css, Jquiry, bootstrap and JavaScript. The website is completely reponsive on all screen"
+              link="https://jolly-swirles-0b8739.netlify.app/"
+              links="https://github.com/Luckyaremu/designs"
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={khidefeast}
