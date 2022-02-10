@@ -16,6 +16,7 @@ import phoenix from "../../Assets/phoenix.png";
 import rotex from "../../Assets/rotex.png";
 import abdulmat from "../../Assets/abdulmat.png";
 import luck from "../../Assets/luck.png";
+import ecommerce from "../../Assets/ecommerce.png";
 
 function Projects() {
   return (
@@ -29,6 +30,16 @@ function Projects() {
           Here are a few of the projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px"}}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ecommerce}
+              isBlog={false}
+              title="E COMMERCE"
+              description="An e commerce website that was designed for some specific requirement by the recruiter for the interview, it was built with REACT and REDUX."
+              link="https://hungry-aryabhata-d11a47.netlify.app/"
+              links="https://github.com/Luckyaremu/e-commerce-prototype"
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={rotex}
