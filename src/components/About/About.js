@@ -34,7 +34,7 @@ function About() {
         </Row>
         <div className="devicon">
         <h1 className="project-heading">
-          Professional <strong className="purple">Skill set </strong>
+          <strong className="purple">Skill set </strong>
         </h1>
         
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
