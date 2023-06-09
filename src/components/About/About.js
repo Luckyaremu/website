@@ -36,6 +36,9 @@ function About() {
         <h1 className="project-heading">
           Professional <strong className="purple">Skill set </strong>
         </h1>
+        
+        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+
         <div className="skillset">
          <li className="about-activity">
               <i className="far fa-hand-point-right"></i> Time management
@@ -81,15 +84,16 @@ function About() {
             </li>
           </div>
 
-        {/* <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-javascript-plain " />
+
+
+          {/* <Techstack iconName="devicon-javascript-plain " />
           <Techstack iconName="devicon-ruby-plain-wordmark " />
           <Techstack iconName="devicon-nodejs-plain-wordmark " />
           <Techstack iconName="devicon-express-original-wordmark" />
           <Techstack iconName="devicon-react-original-wordmark" />
           <Techstack iconName="devicon-git-plain-wordmark" />
-          <Techstack iconName="devicon-bootstrap-plain-wordmark" />
-        </Row> */}
+          <Techstack iconName="devicon-bootstrap-plain-wordmark" /> */}
+        </Row>
 
         
         <h1 className="project-heading">
