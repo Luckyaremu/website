@@ -4,7 +4,7 @@ import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import myImg from "../../Assets/avatar.png";
+// import myImg from "../../Assets/avatar.png";
 
 function About() {
   return (
@@ -24,36 +24,84 @@ function About() {
             </h1>
             <Aboutcard />
           </Col>
-          <Col
+          {/* <Col
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
             <img src={myImg} className="img-fluid" alt="avatar" />
-          </Col>
+          </Col> */}
         </Row>
         <div className="devicon">
         <h1 className="project-heading">
           Professional <strong className="purple">Skill set </strong>
         </h1>
-        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+        <div className="skillset">
+         <li className="about-activity">
+              <i className="far fa-hand-point-right"></i> Time management
+            </li>
+            <li className="about-activity">
+              <i className="far fa-hand-point-right"></i> Leadership
+            </li>
+            <li className="about-activity">
+              <i className="far fa-hand-point-right"></i> Effective communication
+            </li>
+            <li className="about-activity">
+              <i className="far fa-hand-point-right"></i> Customer services
+            </li>
+            <li className="about-activity">
+              <i className="far fa-hand-point-right"></i> Ability to work with and lead a team
+            </li>
+            <li className="about-activity">
+              <i className="far fa-hand-point-right"></i> Microsoft office
+            </li>
+            <li className="about-activity">
+              <i className="far fa-hand-point-right"></i> Critical thinking
+            </li>
+            <li className="about-activity">
+              <i className="far fa-hand-point-right"></i> Leadership and teamwork
+            </li>
+            <li className="about-activity">
+              <i className="far fa-hand-point-right"></i> Agile and waterfall methodology
+            </li>
+            <li className="about-activity">
+              <i className="far fa-hand-point-right"></i> Jira
+            </li>
+            <li className="about-activity">
+              <i className="far fa-hand-point-right"></i> AzureDevsOps
+            </li>
+            <li className="about-activity">
+              <i className="far fa-hand-point-right"></i> React
+            </li>
+            <li className="about-activity">
+              <i className="far fa-hand-point-right"></i> HTML, CSS, SASS
+            </li>
+            <li className="about-activity">
+              <i className="far fa-hand-point-right"></i> Web responsive design
+            </li>
+          </div>
+
+        {/* <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
           <Techstack iconName="devicon-javascript-plain " />
           <Techstack iconName="devicon-ruby-plain-wordmark " />
-          <Techstack iconName="devicon-rails-plain-wordmark " />
           <Techstack iconName="devicon-nodejs-plain-wordmark " />
           <Techstack iconName="devicon-express-original-wordmark" />
           <Techstack iconName="devicon-react-original-wordmark" />
-          <Techstack iconName="devicon-mongodb-plain-wordmark" />
           <Techstack iconName="devicon-git-plain-wordmark" />
           <Techstack iconName="devicon-bootstrap-plain-wordmark" />
-        </Row>
+        </Row> */}
+
+        
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use the most
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px", fontsize: "10px" }}>
-          <Techstack iconName="devicon-linux-plain" />
+          <Techstack iconName="cib-github" />
           <Techstack iconName="cib-visual-studio-code" />
-          <Techstack iconName="cib-heroku" />
+          <Techstack iconName="cib-azure-devops" />
+          <Techstack iconName="cib-jira" />
+          <Techstack iconName="cib-windows" />
+          <Techstack iconName="cib-apple" />
         </Row>
         </div>
       </Container>

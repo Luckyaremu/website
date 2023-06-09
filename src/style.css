@@ -640,8 +640,10 @@ html {
    font-size: 1.9rem;
    border-radius: 1px !important;
 }
-.devicon{
-  display: none;
+.skillset{
+  display: flex;
+
+  align-items: center;
 }
 }
 

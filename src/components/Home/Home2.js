@@ -17,11 +17,11 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I have passion for design and I have learnt
+              I have passion for software project management life cycle and I have learnt
               some nice technologies 🤷‍♂️ such as
               <br />
               <i>
-                <b className="purple"> HTML5, CSS3, RAILS, RUBY, REACT & REDUX and Javascript. </b>
+                <b className="purple"> AGILE METHODLOGY, JIRA, HTML5, CSS3, REACT & REDUX and Javascript. </b>
               </i>
               <br />I can do anything with them
               <br />
@@ -29,7 +29,7 @@ function Home2() {
               My current focus is on &nbsp;
               <i>
                 <b className="purple">
-                  Front-End Web Development.
+                  Project management and front-end web development
                 </b>
               </i>
               <br />
