@@ -9,7 +9,7 @@ function Type() {
           "Project management",
           "Front-End Web Development",
           "Start-up",
-          "Building any kind of website for individuals or coorperate orginazations",
+          "Building any kind of website",
         ],
         autoStart: true,
         loop: true,
