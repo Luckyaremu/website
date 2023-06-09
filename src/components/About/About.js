@@ -4,7 +4,6 @@ import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-// import myImg from "../../Assets/avatar.png";
 
 function About() {
   return (
@@ -24,13 +23,6 @@ function About() {
             </h1>
             <Aboutcard />
           </Col>
-          {/* <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            <img src={myImg} className="img-fluid" alt="avatar" />
-          </Col> */}
         </Row>
         <div className="devicon">
         <h1 className="project-heading">
@@ -83,16 +75,6 @@ function About() {
               <i className="far fa-hand-point-right"></i> Web responsive design
             </li>
           </div>
-
-
-
-          {/* <Techstack iconName="devicon-javascript-plain " />
-          <Techstack iconName="devicon-ruby-plain-wordmark " />
-          <Techstack iconName="devicon-nodejs-plain-wordmark " />
-          <Techstack iconName="devicon-express-original-wordmark" />
-          <Techstack iconName="devicon-react-original-wordmark" />
-          <Techstack iconName="devicon-git-plain-wordmark" />
-          <Techstack iconName="devicon-bootstrap-plain-wordmark" /> */}
         </Row>
 
         

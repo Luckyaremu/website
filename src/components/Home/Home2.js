@@ -21,7 +21,7 @@ function Home2() {
               some nice technologies 🤷‍♂️ such as
               <br />
               <i>
-                <b className="purple"> AGILE METHODLOGY, JIRA, HTML5, CSS3, REACT & REDUX and Javascript. </b>
+                <b className="purple"> AzureDevsOps, Jira, Trello, Asana, HTML5, CSS3, REACT & REDUX and Javascript. </b>
               </i>
               <br />I can do anything with them
               <br />
