@@ -10,8 +10,8 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Lucky Aremu, a Professional in software development life cycle </span>
-           with seven (7) years experience, three (4) years of those focused on software development and i am based in <span className="purple">Lagos state, Nigeria </span>
-           and open for hybrid, onsight or remote oppotunity.
+           with seven (7) years experience, three (3) years of those focused on software development and i am based in <span className="purple">Lagos state, Nigeria </span>
+           and open for hybrid, onsight or remote opportunity.
             <br/> 
             I am open for any team with passion for   
             <br/>
